@@ -31,7 +31,7 @@ Just a little WIP game, where you have to program in ARM assembly to make thigs 
 | :green_heart: | :heart:       | Branch and Exchange              |
 | :heart:       | :heart:       | HW Data transfer: reg offset     |
 | :heart:       | :heart:       | HW Data transfer: imm offset     |
-| :green_heart: | :heart:       | Single Data Transfer             |
+| :green_heart: | :orange_heart:| Single Data Transfer             |
 | :heart:       | :heart:       | Block  Data Transfer             |
 | :green_heart: | :heart:       | Branch                           |
 | :black_heart: | :black_heart: | Coprocessor Data Transfer        |
