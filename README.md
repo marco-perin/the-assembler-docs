@@ -33,7 +33,7 @@ Just a little WIP game, where you have to program in ARM assembly to make thigs 
 | :heart:       | :heart:       | HW Data transfer: imm offset     |
 | :green_heart: | :orange_heart:| Single Data Transfer             |
 | :heart:       | :heart:       | Block  Data Transfer             |
-| :green_heart: | :orange_heart:| Branch                           |
+| :green_heart: | :green_heart: | Branch                           |
 | :black_heart: | :black_heart: | Coprocessor Data Transfer        |
 | :black_heart: | :black_heart: | Coprocessor Data Operation       |
 | :black_heart: | :black_heart: | Coprocessor Register Transfer    |
@@ -49,7 +49,7 @@ Just a little WIP game, where you have to program in ARM assembly to make thigs 
 | Text > BitC   | BitC > Func   | Format    | Description           | 
 | :-----:       | :------:      | :------:  | :----:                |
 | :green_heart: | :green_heart: |  B        | Branch                |
-| :green_heart: | :heart:       |  BL       | Branch with Link      |
+| :green_heart: | :green_heart: |  BL       | Branch with Link      |
 
 ### Data Processing
 
@@ -75,11 +75,12 @@ Just a little WIP game, where you have to program in ARM assembly to make thigs 
 
 ### Single Data Transfer
 
-| Text > BitC   | BitC > Func   | Format    | Description                   | 
-| :-----:       | :------:      | :------:  | :----:                        |
-| :green_heart: | :green_heart: |  LDR      | Load to register (pre-index)  |
-| :green_heart: | :heart:       |           | Load to register (post-index) |
-| :green_heart: | :heart:       |  STR      | Store register                |
+| Text > BitC   | BitC > Func   | Format    | Description                           | 
+| :-----:       | :------:      | :------:  | :----                                 |
+| :green_heart: | :green_heart: |  LDR      | Load data to register (pre-index)     |
+| :green_heart: | :green_heart: |           | Load data to register (post-index)    |
+| :green_heart: | :green_heart: |  ADR      | Load address to register (post-index) |
+| :green_heart: | :orange_heart:|  STR      | Store register                        |
 
 
 ### Bonus
