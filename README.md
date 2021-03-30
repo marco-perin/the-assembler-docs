@@ -33,7 +33,7 @@ Just a little WIP game, where you have to program in ARM assembly to make thigs 
 | :heart:       | :heart:       | HW Data transfer: imm offset     |
 | :green_heart: | :orange_heart:| Single Data Transfer             |
 | :heart:       | :heart:       | Block  Data Transfer             |
-| :green_heart: | :heart:       | Branch                           |
+| :green_heart: | :orange_heart:| Branch                           |
 | :black_heart: | :black_heart: | Coprocessor Data Transfer        |
 | :black_heart: | :black_heart: | Coprocessor Data Operation       |
 | :black_heart: | :black_heart: | Coprocessor Register Transfer    |
@@ -48,7 +48,7 @@ Just a little WIP game, where you have to program in ARM assembly to make thigs 
 
 | Text > BitC   | BitC > Func   | Format    | Description           | 
 | :-----:       | :------:      | :------:  | :----:                |
-| :green_heart: | :heart:       |  B        | Branch                |
+| :green_heart: | :green_heart: |  B        | Branch                |
 | :green_heart: | :heart:       |  BL       | Branch with Link      |
 
 ### Data Processing
@@ -73,6 +73,34 @@ Just a little WIP game, where you have to program in ARM assembly to make thigs 
 | :green_heart: | :black_heart: |  MVN     | NOT operand2(operand1 is ignored)  |
 
 
+### Single Data Transfer
+
+| Text > BitC   | BitC > Func   | Format    | Description                   | 
+| :-----:       | :------:      | :------:  | :----:                        |
+| :green_heart: | :green_heart: |  LDR      | Load to register (pre-index)  |
+| :green_heart: | :heart:       |           | Load to register (post-index) |
+| :green_heart: | :heart:       |  STR      | Store register                |
+
+
+### Bonus
+
+How to know that it's time to go to bed because of the max # of cycle terminate condition you did not put while testing <sub><sup>(~~hence not being able to stop the cycle)~~</sup></sub>
+
+
+```assembly
+vara: .word   2         
+varb: .word   1         
+text: .ascii  "8CHARTXT"  
+       LDR R1, =vara    
+       LDR R2, =varb    
+       LDR R3, =text    
+       LDR R4, [R2, #1] 
+       LDR R5, [R1, #2] 
+       LDR R6, [R2, #1]!
+loop:                   
+trap:  B trap           
+       B loop
+```
 
 
 
@@ -81,8 +109,44 @@ Just a little WIP game, where you have to program in ARM assembly to make thigs 
 
 
 
+<!-- ![][OK]
 
+![][WIP]
 
+![][TODO]
+
+![][NODO] -->
+
+<!-- [OK]: https://image.flaticon.com/icons/png/32/3248/3248235.png -->
+<!-- ICONS SIMPLE -->
+<!-- [OK]: https://image.flaticon.com/icons/png/32/190/190411.png -->
+<!-- [WIP]: https://image.flaticon.com/icons/png/32/190/190435.png -->
+<!-- [WIP]: https://image.flaticon.com/icons/png/32/190/190420.png
+[TODO]: https://image.flaticon.com/icons/png/32/190/190406.png
+[NODO]: https://image.flaticon.com/icons/png/32/190/190438.png -->
+
+<!-- rating and validation pack -->
+
+<!-- [OK]: https://image.flaticon.com/icons/png/32/1721/1721945.png -->
+[OK]: https://image.flaticon.com/icons/png/32/1722/1722017.png
+
+[WIP]:  https://image.flaticon.com/icons/png/32/1721/1721923.png
+
+[TODO]: https://image.flaticon.com/icons/png/32/3248/3248209.png
+
+<!-- [NODO]: https://image.flaticon.com/icons/png/32/1721/1721955.png -->
+[NODO]: https://image.flaticon.com/icons/png/32/1721/1721977.png
+
+[NODO]: https://image.flaticon.com/icons/png/32/3558/3558838.png
+
+<!-- 
+![][OK]
+
+![][WIP]
+
+![][TODO]
+
+![][NODO] -->
 
 
 
