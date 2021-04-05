@@ -21,6 +21,14 @@ Just a little WIP game, where you have to program in ARM assembly to make thigs 
 
 The list of supported commands can be seen [here](docs/commands.md) 
 
+### Updates
+
+The Code editor window is coming together!
+It also have spell checking in advance, and a little play scene for
+preview is being made
+
+![editor_panel](docs\images\editor_panel_preview.png)
+
 ### Bonus
 
 How to know that it's time to go to bed because of the max # of cycle terminate condition you did not put while testing <sub><sup>(~~hence not being able to stop the cycle)~~</sup></sub>
