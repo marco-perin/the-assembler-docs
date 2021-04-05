@@ -27,7 +27,7 @@ The Code editor window is coming together!
 It also have spell checking in advance, and a little play scene for
 preview is being made
 
-![editor_panel](docs\images\editor_panel_preview.png)
+![editor_panel](/docs/images/editor_panel_preview.png)
 
 ### Bonus
 
