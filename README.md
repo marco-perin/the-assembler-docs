@@ -1,10 +1,9 @@
 # the-assembler
 
-![Coverage Badge](CodeCoverage/Report/badge_combined.svg)
+Core coverage: [![codecov](https://codecov.io/gh/darkgap/the-assembler-core/branch/master/graph/badge.svg?token=BGLJ6X5SUZ)](https://codecov.io/gh/darkgap/the-assembler-core)
 
 ## Description
 Just a little WIP game, where you have to program in ARM assembly to make thigs do things.
-
 
 
 ## Programming reference
