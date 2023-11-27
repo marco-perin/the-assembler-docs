@@ -1,24 +1,22 @@
 # the-assembler
 
-Core coverage: [![codecov](https://codecov.io/gh/darkgap/the-assembler-core/branch/master/graph/badge.svg?token=BGLJ6X5SUZ)](https://codecov.io/gh/darkgap/the-assembler-core)
+Core coverage: [![codecov](https://codecov.io/gh/marco-perin/the-assembler-core/branch/main/graph/badge.svg?token=BGLJ6X5SUZ)](https://codecov.io/gh/marco-perin/the-assembler-core)
 
 ## Description
-Just a little WIP game, where you have to program in ARM assembly to make thigs do things.
 
+Just a little WIP game, where you have to program in ARM assembly to make thigs do things.
 
 ## Programming reference
 
 [reference PDF for ARM sintax](https://iitd-plos.github.io/col718/ref/arm-instructionset.pdf#page=3) (will implement own sintax documentation)
 
 [Other reference](https://www.macs.hw.ac.uk/~hwloidl/Courses/F28HS/Docu/DDI0406C_C_arm_architecture_reference_manual.pdf), more advanced but not taken as reference
- 
-
 
 ## Features
 
 ### Commands List
 
-The list of supported commands can be seen [here](docs/commands.md) 
+The list of supported commands can be seen [here](docs/commands.md)
 
 ### Updates
 
@@ -31,7 +29,6 @@ preview is being made
 ### Bonus
 
 How to know that it's time to go to bed because of the max # of cycle terminate condition you did not put while testing <sub><sup>(~~hence not being able to stop the cycle)~~</sup></sub>
-
 
 ```assembly
 vara: .word   2         
@@ -47,13 +44,6 @@ loop:
 trap:  B trap           
        B loop
 ```
-
-
-
-
-
-
-
 
 <!-- ![][OK]
 
@@ -74,16 +64,8 @@ trap:  B trap
 <!-- rating and validation pack -->
 
 <!-- [OK]: https://image.flaticon.com/icons/png/32/1721/1721945.png -->
-[OK]: https://image.flaticon.com/icons/png/32/1722/1722017.png
-
-[WIP]:  https://image.flaticon.com/icons/png/32/1721/1721923.png
-
-[TODO]: https://image.flaticon.com/icons/png/32/3248/3248209.png
 
 <!-- [NODO]: https://image.flaticon.com/icons/png/32/1721/1721955.png -->
-[NODO]: https://image.flaticon.com/icons/png/32/1721/1721977.png
-
-[NODO]: https://image.flaticon.com/icons/png/32/3558/3558838.png
 
 <!-- 
 ![][OK]
@@ -93,7 +75,3 @@ trap:  B trap
 ![][TODO]
 
 ![][NODO] -->
-
-
-
-

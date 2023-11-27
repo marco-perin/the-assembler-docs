@@ -1,13 +1,13 @@
-# Commands available 
-
+# Commands available
 
 :heart: : not available yet\
 :orange_heart: : WIP\
 :green_heart: : available\
 :black_heart: : not planned
 
-### Command Format
+## Formats
 
+### Command Format
 
 |  Text > BitC  |  BitC > Func  |            Format             |
 | :-----------: | :-----------: | :---------------------------: |
@@ -59,7 +59,6 @@
 | :green_heart: | :green_heart: |   MOV    |    operand2(operand1 is ignored)     |
 | :green_heart: | :green_heart: |   BIC    | operand1 AND NOT operand2(Bit clear) |
 | :green_heart: | :green_heart: |   MVN    |  NOT operand2(operand1 is ignored)   |
-
 
 ### Single Data Transfer
 
